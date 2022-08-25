@@ -11,7 +11,10 @@ export default defineConfig({
     //emptyOutDir: false,
     manifest: true,
     rollupOptions: {
-      input: './src/js/app.js'
+      input: './src/js/app.js',
+      output: {
+        entryFileNames: '[name].js',
+      }
     }
   }
 });
