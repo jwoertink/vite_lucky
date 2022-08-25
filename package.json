@@ -1,0 +1,18 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@rails/ujs": "^6.0.0",
+    "modern-normalize": "^1.1.0",
+    "turbolinks": "^5.2.0"
+  },
+  "scripts": {
+    "dev": "yarn run vite",
+    "build": "yarn run vite build",
+    "preview": "yarn run vite preview",
+    "watch": "yarn run vite build --watch"
+  },
+  "devDependencies": {
+    "vite": "^3.0.8"
+  }
+}

@@ -1,0 +1,22 @@
+dependencies:
+  lucky:
+    github: luckyframework/lucky
+    branch: test_vite_support
+  avram:
+    github: luckyframework/avram
+    branch: main
+  authentic:
+    github: luckyframework/authentic
+    branch: main
+  carbon:
+    github: luckyframework/carbon
+    branch: main
+  carbon_sendgrid_adapter:
+    github: luckyframework/carbon_sendgrid_adapter
+    branch: main
+  lucky_env:
+    github: luckyframework/lucky_env
+    branch: main
+  lucky_task:
+    github: luckyframework/lucky_task
+    branch: main
