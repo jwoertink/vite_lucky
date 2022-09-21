@@ -14,10 +14,9 @@ export default defineConfig(({ command }) => ({
   resolve: {
     alias: {
         '@': '/src/js',
-        "/images": resolve(__dirname, "src/images"),
     }
   },
-  assetsInclude: ['./src/images/*.png'], // do not add .css
+  //assetsInclude: ['./src/images/*.png'], // do not add .css
   server: {
     watch: {
       include: ['**/src/js/**', '**/src/css/**'],
@@ -25,7 +24,7 @@ export default defineConfig(({ command }) => ({
   },
   build: {
     outDir: 'public',
-    emptyOutDir: true,
+    emptyOutDir: false,
     manifest: true,
     rollupOptions: {
       output: {
@@ -35,7 +34,7 @@ export default defineConfig(({ command }) => ({
           return asset ? asset : filename
         },*/
         assetFileNames: ({name}) => {
-          console.log("asset_name: " + name)
+          console.log("asset_name2: " + name)
           if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')){
               return 'images/[name][extname]';
           }

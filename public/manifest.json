@@ -1,15 +1,23 @@
 {
+  "src/images/lucky_logo.png": {
+    "file": "images/lucky_logo.png",
+    "src": "src/images/lucky_logo.png"
+  },
   "src/js/app.js": {
     "file": "js/app2.js",
     "src": "src/js/app.js",
     "isEntry": true,
     "css": [
-      "app.css"
+      "css/app.css"
     ]
   },
   "src/css/app.css": {
-    "file": "app.css",
+    "file": "css/app.css",
     "src": "src/css/app.css",
     "isEntry": true
+  },
+  "src/images/vite_logo.png": {
+    "file": "images/vite_logo.png",
+    "src": "src/images/vite_logo.png"
   }
 }

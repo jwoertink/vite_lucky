@@ -20,13 +20,15 @@ abstract class AuthLayout
 
       body do
         mount Shared::FlashMessages, context.flash
-        # img src: "images/crystal_logo.png"
-        # img src: asset("images/lucky_logo.png")
-        text "+"
-        
-        # img src: asset("images/vite_logo.png")
-        div class: "vite-logo"
-        content
+        div class: "" do
+          img src: "images/crystal_logo.png"
+          img src: "images/lucky_logo.png"
+          text "+"
+          
+          img src: "images/vite_logo.png"
+          div class: "vite-logo"
+          content
+        end
       end
     end
   end
