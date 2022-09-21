@@ -1,7 +1,6 @@
 dependencies:
   lucky:
-    github: luckyframework/lucky
-    branch: test_vite_support
+    path: /home/frisco/Documents/Nube/Projects/fyc/lucky/vite/lucky
   avram:
     github: luckyframework/avram
     branch: main
