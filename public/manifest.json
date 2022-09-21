@@ -15,9 +15,5 @@
     "file": "css/app.css",
     "src": "src/css/app.css",
     "isEntry": true
-  },
-  "src/images/vite_logo.png": {
-    "file": "images/vite_logo.png",
-    "src": "src/images/vite_logo.png"
   }
 }

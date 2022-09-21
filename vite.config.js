@@ -13,10 +13,9 @@ export default defineConfig(({ command }) => ({
   ],  
   resolve: {
     alias: {
-        '@': '/src/js',
+      '@': '/src/js',
     }
   },
-  //assetsInclude: ['./src/images/*.png'], // do not add .css
   server: {
     watch: {
       include: ['**/src/js/**', '**/src/css/**'],
@@ -24,17 +23,12 @@ export default defineConfig(({ command }) => ({
   },
   build: {
     outDir: 'public',
-    emptyOutDir: false,
+    emptyOutDir: false, // If true, all public/* including images folder will be deleted.
     manifest: true,
     rollupOptions: {
       output: {
         entryFileNames: 'js/[name].js',
-        /*assetFileNames({name: filename}) {
-          const asset = filename?.split('src/').at(1)
-          return asset ? asset : filename
-        },*/
         assetFileNames: ({name}) => {
-          console.log("asset_name2: " + name)
           if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')){
               return 'images/[name][extname]';
           }
@@ -49,8 +43,5 @@ export default defineConfig(({ command }) => ({
         },
       },
     }
-  },
-  dev_server: {
-    enabled: true
-  },
+  }
 }));
