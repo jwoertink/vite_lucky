@@ -7,13 +7,13 @@
     "file": "images/vite_logo.png",
     "src": "src/images/vite_logo.png"
   },
-  "src/images/lucky_logo.png": {
-    "file": "images/lucky_logo.png",
-    "src": "src/images/lucky_logo.png"
-  },
   "src/images/vite_logo.svg": {
     "file": "images/vite_logo.svg",
     "src": "src/images/vite_logo.svg"
+  },
+  "src/images/lucky_logo.png": {
+    "file": "images/lucky_logo.png",
+    "src": "src/images/lucky_logo.png"
   },
   "src/js/app.js": {
     "file": "js/app2.js",

@@ -1,6 +1,6 @@
 .card {
   padding: 2em;
-  border: 10px solid red ;
+  border: 1px solid red ;
   background-color: var(--blue);
 }
 
