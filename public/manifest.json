@@ -1,30 +1,26 @@
 {
-  "src/images/crystal_logo.png": {
-    "file": "images/crystal_logo.png",
-    "src": "src/images/crystal_logo.png"
+  "src/images/lucky_logo.png": {
+    "file": "images/lucky_logo.a54cc67e.png",
+    "src": "src/images/lucky_logo.png"
   },
   "src/images/vite_logo.png": {
-    "file": "images/vite_logo.png",
+    "file": "images/vite_logo.51249ca9.png",
     "src": "src/images/vite_logo.png"
   },
   "src/images/vite_logo.svg": {
-    "file": "images/vite_logo.svg",
+    "file": "images/vite_logo.17e50649.svg",
     "src": "src/images/vite_logo.svg"
   },
-  "src/images/lucky_logo.png": {
-    "file": "images/lucky_logo.png",
-    "src": "src/images/lucky_logo.png"
-  },
   "src/js/app.js": {
-    "file": "js/app2.js",
+    "file": "js/app.js",
     "src": "src/js/app.js",
     "isEntry": true,
     "css": [
-      "css/app.css"
+      "css/app.06811aa8.css"
     ]
   },
   "src/css/app.css": {
-    "file": "css/app.css",
+    "file": "css/app.06811aa8.css",
     "src": "src/css/app.css",
     "isEntry": true
   }
