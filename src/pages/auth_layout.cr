@@ -24,7 +24,7 @@ abstract class AuthLayout
 
         img src: asset("images/lucky_logo.png") 
         #img src: dynamic_asset("images/lucky_logo.png")
-        div data_controller: "hello", class: "vite-logo"
+        div data_controller: "hello joystick", class: "vite-logo"
         div class: "vite-logo2"
         content
       end

@@ -12,5 +12,5 @@ document.body.appendChild(image)
 
 import Rails from "@rails/ujs";
 
-import { initialize } from './controllers/stimulus.js'
-initialize()
+import { runStimulus } from './controllers/stimulus.js'
+runStimulus()

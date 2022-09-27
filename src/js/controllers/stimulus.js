@@ -1,14 +1,9 @@
 import { Application } from "@hotwired/stimulus"
-import HelloController from "./hello_controller"
-/*
+import { registerControllers } from 'stimulus-vite-helpers'
 
-window.onload = () => {
-  window.Stimulus = Application.start()
-  Stimulus.register("hello", HelloController)
+export function runStimulus(){
+  const application = Application.start()
+  const controllers = import.meta.globEager('./**/*_controller.js')
+  registerControllers(application, controllers)
 }
-*/
 
-export function initialize(){
-  window.Stimulus = Application.start()
-  Stimulus.register("hello", HelloController)
-}
