@@ -1,15 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
-// import laravel from 'laravel-vite-plugin'
-// import { Blurhash } from 'vite-plugin-md'
-
 
 export default defineConfig(({ command }) => ({
-  //assetsInclude: ['**/*.png'],
   plugins: [
-    /*laravel([
-      //'src/css/app.css',
-      'src/js/app.js',
-    ]),*/
   ],
   css: {
     postcss: {

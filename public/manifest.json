@@ -3,13 +3,13 @@
     "file": "images/lucky_logo.a54cc67e.png",
     "src": "src/images/lucky_logo.png"
   },
-  "src/images/vite_logo.png": {
-    "file": "images/vite_logo.51249ca9.png",
-    "src": "src/images/vite_logo.png"
-  },
   "src/images/vite_logo.svg": {
     "file": "images/vite_logo.17e50649.svg",
     "src": "src/images/vite_logo.svg"
+  },
+  "src/images/vite_logo.png": {
+    "file": "images/vite_logo.51249ca9.png",
+    "src": "src/images/vite_logo.png"
   },
   "src/js/app.js": {
     "file": "js/app.js",

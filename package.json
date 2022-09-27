@@ -17,11 +17,7 @@
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-image": "^2.1.1",
     "laravel-vite-plugin": "^0.6.1",
-    "postcss-assets": "^6.0.0",
-    "postcss-loader": "^7.0.1",
-    "postcss-url": "^10.1.3",
     "stimulus-vite-helpers": "^3.0.1",
-    "vite": "^3.0.8",
-    "vite-plugin-md": "^0.20.4"
+    "vite": "^3.0.8"
   }
 }
