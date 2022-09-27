@@ -27,15 +27,15 @@ export default defineConfig(({ command }) => ({
     
     manifest: true,
     rollupOptions: {
-      input: ['src/js/app.js','src/css/app.css'],
+      input: ['src/js/app.ts','src/css/app.css'],
       output: {
-        entryFileNames: 'js/[name].js',
+        entryFileNames: 'js/[name].ts',
         assetFileNames: ({name}) => {
           if (/\.(gif|jpe?g|png|svg)$/.test(name ?? '')){
             return 'images/[name].[hash][extname]';
           }
           if (/\.css$/.test(name ?? '')) {
-            return 'css/[name].[hash][extname]';   
+            return 'css/[name].[hash][extname]';
           }
           // default value
           // ref: https://rollupjs.org/guide/en/#outputassetfilenames
