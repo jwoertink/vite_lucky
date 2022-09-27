@@ -1,24 +1,23 @@
 /* eslint no-console:0 */
 
+import { Application } from "@hotwired/stimulus"
 import '../css/app.css';
 import.meta.glob([
   '../images/**',
 ]);
-import lucky_logo from "../images/crystal_logo.png";
-console.log(lucky_logo)
+import lucky_logo from "../images/lucky_logo.png";
+import crystal_logo from "../images/crystal_logo.png";
+
 let image = document.createElement("img")
-
 image.src = lucky_logo
-
 document.body.appendChild(image)
 
-// importing like this, allows you to use asset("images/lucky_logo.png")
-// import lucky_logo from "../images/lucky_logo.png";
-// import vite_logo from "../images/vite_logo.png";
-// not importing, still allows you to use directly 
-// img src: "images/crystal_logo.png"
-
 import Rails from "@rails/ujs";
+
+import.meta.glob(['./js/controllers/*.js'])
+window.Stimulus = Application.start()
+import HelloController from "./controllers/hello_controller"
+Stimulus.register("hello", HelloController)
 
 window.onload = () => {
   console.log('Another test')

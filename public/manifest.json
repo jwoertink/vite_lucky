@@ -16,11 +16,14 @@
     "src": "src/js/app.js",
     "isEntry": true,
     "css": [
-      "css/app.06811aa8.css"
+      "css/app.5279cec8.css"
+    ],
+    "assets": [
+      "images/lucky_logo.a54cc67e.png"
     ]
   },
   "src/css/app.css": {
-    "file": "css/app.06811aa8.css",
+    "file": "css/app.5279cec8.css",
     "src": "src/css/app.css",
     "isEntry": true
   }
