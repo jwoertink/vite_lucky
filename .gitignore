@@ -11,3 +11,4 @@ start_server
 /public/*
 /node_modules
 yarn-error.log
+/public/images*
