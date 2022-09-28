@@ -4,13 +4,13 @@ import '../css/app.css';
 import.meta.glob([
   '../images/**',
 ]);
-import crystal_logo from "../images/crystal_logo.png";
+// import crystal_logo from "../images/crystal_logo.png";
 
-let image = document.createElement("img")
-image.src = crystal_logo
-document.body.appendChild(image)
+// let image = document.createElement("img")
+// image.src = crystal_logo
+// document.body.appendChild(image)
 
 import Rails from "@rails/ujs";
 
-import { runStimulus } from './controllers/stimulus.ts'
+import { runStimulus } from './controllers/stimulus'
 runStimulus()

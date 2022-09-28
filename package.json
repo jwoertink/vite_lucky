@@ -16,8 +16,15 @@
     "@hotwired/stimulus": "^3.1.0",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-image": "^2.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
     "laravel-vite-plugin": "^0.6.1",
+    "postcss": "^8.4.16",
     "stimulus-vite-helpers": "^3.0.1",
+    "tailwindcss": "^3.1.8",
     "vite": "^3.0.8"
   }
 }
