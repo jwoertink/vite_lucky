@@ -8,8 +8,7 @@ start_server
 *.local.cr
 .env
 /tmp
-/public/js
-/public/css
-/public/mix-manifest.json
+/public/*
 /node_modules
 yarn-error.log
+/public/images*
